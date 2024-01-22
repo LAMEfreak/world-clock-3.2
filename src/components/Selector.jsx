@@ -1,4 +1,4 @@
-import { Form } from "react-bootstrap/Form";
+import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import sortedClockData from "../clock-data";
 import { useState } from "react";
