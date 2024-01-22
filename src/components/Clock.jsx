@@ -14,7 +14,7 @@ function Clock({ city, timezone }) {
 
   return (
     <>
-      <p style={{ fontSize: "30px" }}>
+      <p style={{ fontSize: "20px" }}>
         <strong style={{ color: "lightblue", marginRight: "8px" }}>
           {city}:
         </strong>{" "}
