@@ -1,5 +1,8 @@
 # World Clock
-https://lamefreak.github.io/world-clock-3.2/
+Try the World Clock here: https://lamefreak.github.io/world-clock-3.2/
+
+<img src="./public/preview.png" alt="Preview of World Clock" width="400"/>
+
 ## Getting Started
 Fork and clone the repo to your local machine.
 ```
