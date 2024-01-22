@@ -26,3 +26,8 @@ You may also see any lint errors in the console.
 
 ## Future Enhancements
 - [ ] Add light mode toggle 💡
+
+## Technologies Used
+- React
+- HTML / CSS / JavaScript
+- React Bootstrap
