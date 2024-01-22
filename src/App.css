@@ -37,3 +37,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.btn-secondary {
+  background-color: #131313;
+  margin: 20px auto;
+}
+
+.btn-secondary:hover {
+  background-color: #343434;
+  transition: all 0.25s
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
