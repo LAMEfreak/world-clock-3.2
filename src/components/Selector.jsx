@@ -1,4 +1,4 @@
-import Form from "react-bootstrap/Form";
+import { Form } from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import sortedClockData from "../clock-data";
 import { useState } from "react";
@@ -26,7 +26,9 @@ function Selector({ handleAddTimezone }) {
         aria-label="Timezone selector"
         onChange={handleChange}
         value={selectedTimezone.timezone}
+        bsPrefix="form-select-new"
       >
+        {/* React Bootstrap unable to style select options due to browser limitations */}
         <option value="">Select a timezone</option>
         {sortedClockData.map((location) => (
           <option key={location.city} value={location.timezone}>
