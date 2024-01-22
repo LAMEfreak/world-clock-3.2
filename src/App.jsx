@@ -1,4 +1,4 @@
-import logo from "/logo.png";
+import logo from "/white-clock.svg";
 import "./App.css";
 import WorldClock from "./components/WorldClock";
 import { useState } from "react";
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <div>
-        <img src={logo} className="logo" alt="Rocket logo" />
+        <img src={logo} className="logo" alt="White Clock" />
       </div>
       <h1>World Clock</h1>
       <p>The default timezone displayed is Singapore (GMT+8).</p>
