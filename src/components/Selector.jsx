@@ -36,7 +36,7 @@ function Selector({ handleAddTimezone }) {
           </option>
         ))}
       </Form.Select>
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" disabled={selectedTimezone.timezone===""}>
         Add Timezone
       </Button>
     </Form>

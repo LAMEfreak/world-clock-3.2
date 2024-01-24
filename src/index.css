@@ -54,6 +54,11 @@ button:hover {
   background-color: #484fdd;
 }
 
+button:disabled {
+  background-color: #4a4a4b54;
+  cursor: not-allowed;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
